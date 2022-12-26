@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c828559-452d-4d2d-b5f6-61aae3485671" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/miniProject.iml" afterDir="false" />
+    <list default="true" id="6c828559-452d-4d2d-b5f6-61aae3485671" name="Changes" comment="finalResult">
+      <change beforePath="$PROJECT_DIR$/mini_project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini_project/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +41,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672050952176</updated>
-      <workItem from="1672050953821" duration="403000" />
+      <workItem from="1672050953821" duration="541000" />
     </task>
+    <task id="LOCAL-00001" summary="finalResult">
+      <created>1672051423919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672051423919</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,5 +66,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finalResult" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalResult" />
   </component>
 </project>

@@ -54,17 +54,3 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
     });
 
-
-
-// fetch('https://reqres.in/api/users')
-//     .then(resp => resp.json())
-//     .then((value) => {
-//         let {data} = value;
-//         for (const userPic of data) {
-//             let img = document.createElement('img');
-//             img.src = userPic.avatar;
-//             div.append(img)
-//         }
-//     })
-
-    })
