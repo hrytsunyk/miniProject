@@ -6,8 +6,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .then(users => {
 
         fetch('https://reqres.in/api/users')
-    .then(resp => resp.json())
-    .then((value) => {
+        .then(resp => resp.json())
+        .then((value) => {
         let {data} = value;
 
         let usersDivHTML = document.querySelector('.users');
@@ -26,7 +26,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             let anchor = document.createElement('a');
             anchor.href = `user-details.html?id=${user.id}`;
-            anchor.target = '_blank'
+            anchor.target = '_blank';
             anchor.innerHTML = `${user.id}. ${user.name}`;
 
             h4.append(anchor);
@@ -38,19 +38,15 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
             for (const userPic of data) {
 
-               if (user.id === userPic.id) {
-                   img.src = `${userPic.avatar}` ;
-                   div.append(img);
-               }
+                if (user.id === userPic.id) {
+                    img.src = `${userPic.avatar}`;
+                    div.append(img);
+                }
             };
 
-            userTextDiv.append(div, h4)
+            userTextDiv.append(div, h4);
             usersDivHTML.append(userTextDiv);
 
         };
-
-
-
-
+        });
     });
-
