@@ -1,0 +1,79 @@
+.background {
+    height: 1300px;
+    background-image: url("../pictures/img.png");
+    -webkit-background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.father {
+    /*margin: 20px;*/
+    width: 600px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userTextDiv {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.users {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.h4-userName {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    background-image: url("../pictures/userIcon.svg");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 50%;
+    /*margin: 20px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.face {
+    border-radius: 50%;
+    position: relative;
+    bottom: 20px;
+}
+
+.title {
+    color: white;
+    margin:  30px;
+}
+
+.h4-userName, a:hover {
+    color: black;
+    transition: 500ms;
+}

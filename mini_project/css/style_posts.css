@@ -1,0 +1,76 @@
+.background {
+    width: 100vw;
+    height: 100%;
+    background-image: url("../pictures/img.png");
+    -webkit-background-size: 100% ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.father {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 400px;
+    height: 1000px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px;
+}
+
+.comments {
+    width: 100% ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.commTitleDiv {
+    width: 300px;
+    height: 150px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+p {
+    margin: 0;
+    padding: 5px 30px 20px 30px;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+h5 {
+    margin: 0;
+    /*color: white;*/
+}
+
+button {
+    margin: 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,146 @@
+.background {
+    height: 100vh;
+    background-image: url("../pictures/img.png");
+    -webkit-background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    perspective: 1300px;
+}
+
+.users-card.flipCard {
+    transform: rotateY(-180deg);
+
+
+
+}
+
+.users-card, .flipCard {
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    transition: 1000ms;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.user-card-front{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    padding: 50px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    z-index: -1;
+
+}
+
+.user-card-back{
+    width: 400px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backface-visibility: hidden;
+    position: absolute;
+    transform: rotateY(-180deg);
+}
+
+
+
+
+.button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: url("../pictures/img.png");
+    background-size: 700px;
+    background-position: bottom;
+    margin: 10px;
+    transition: 1000ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+}
+
+.button:hover {
+    transition: 1000ms;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.face {
+    border-radius: 50%;
+    position: relative;
+    top: -60px;
+}
+
+* > h4, p {
+    color: white;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.first-h4 {
+    position: relative;
+    top: -50px;
+}
+.second-h4 {
+    position: relative;
+    top: -45px;
+    z-index: -1;
+}
+
+.third-h4{
+    position: relative;
+    top: -25px;
+}
+
+li {
+    margin: 10px;
+}
+
+h2 {
+    color: #50525e;
+}
+
+ol, li> a {
+    text-decoration: none;
+    color: white;
+    transition: 1000ms;
+
+}
+
+a:nth-child(n):hover {
+    color: #50525e;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+
